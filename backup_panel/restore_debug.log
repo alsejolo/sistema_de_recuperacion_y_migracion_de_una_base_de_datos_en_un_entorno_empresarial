@@ -1,0 +1,417 @@
+[2025-05-30 09:28:25] Inicio de restauración
+[2025-05-30 09:28:25] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-05-30 09:28:25] Procesando archivo: D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+[2025-05-30 09:28:25] Tamaño del archivo: 659488 bytes
+[2025-05-30 09:28:25] Procesando backup ENCRIPTADO
+[2025-05-30 09:28:25] Longitud datos encriptados: 659488 bytes
+[2025-05-30 09:28:25] IV extraído: 933014be0615d5462fef39afb14f4ccb
+[2025-05-30 09:28:25] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-30 09:28:25] Datos desencriptados: 659456 bytes
+[2025-05-30 09:28:25] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\dec797D.tmp.bak
+[2025-05-30 09:28:25] Escritos 659456 bytes en archivo temporal
+[2025-05-30 09:28:25] Tamaño archivo temporal: 659456 bytes
+[2025-05-30 09:28:25] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-30 09:28:25] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\dec797D.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-05-30 09:28:25] Resultado del comando (Código 0): Array
+(
+    [0] => Msg 3201, Level 16, State 2, Server KernelOS-PC, Line 1
+    [1] => Cannot open backup device 'C:\Users\Administrator\AppData\Local\Temp\dec797D.tmp.bak'. Operating system error 5(Access is denied.).
+    [2] => Msg 3013, Level 16, State 1, Server KernelOS-PC, Line 1
+    [3] => RESTORE DATABASE is terminating abnormally.
+)
+
+[2025-05-30 09:28:25] Archivo temporal eliminado
+[2025-05-30 09:28:25] Restauración completada con éxito
+[2025-05-30 09:28:38] Inicio de restauración
+[2025-05-30 09:28:38] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\ecommerce_backup_20250528_182553.bak
+    [encrypted] => 0
+)
+
+[2025-05-30 09:28:38] Procesando archivo: D:\laragon\backup_logs\ecommerce_backup_20250528_182553.bak
+[2025-05-30 09:28:38] Tamaño del archivo: 4050944 bytes
+[2025-05-30 09:28:38] Procesando backup NORMAL
+[2025-05-30 09:28:38] Tamaño archivo a restaurar: 4050944 bytes
+[2025-05-30 09:28:38] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'D:\laragon\backup_logs\ecommerce_backup_20250528_182553.bak' WITH REPLACE, RECOVERY"
+[2025-05-30 09:28:39] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.282 seconds (13.303 MB/sec).
+)
+
+[2025-05-30 09:28:39] Restauración completada con éxito
+[2025-05-30 10:01:42] Inicio de restauración
+[2025-05-30 10:01:42] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-05-30 10:01:42] Procesando archivo: D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+[2025-05-30 10:01:42] Tamaño del archivo: 659488 bytes
+[2025-05-30 10:01:42] Procesando backup ENCRIPTADO
+[2025-05-30 10:01:42] Longitud datos encriptados: 659488 bytes
+[2025-05-30 10:01:42] IV extraído: 933014be0615d5462fef39afb14f4ccb
+[2025-05-30 10:01:42] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-30 10:01:42] Datos desencriptados: 659456 bytes
+[2025-05-30 10:01:42] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\decF265.tmp.bak
+[2025-05-30 10:01:42] Escritos 659456 bytes en archivo temporal
+[2025-05-30 10:01:42] Tamaño archivo temporal: 659456 bytes
+[2025-05-30 10:01:42] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-30 10:01:42] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\decF265.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-05-30 10:01:43] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.017 seconds (220.674 MB/sec).
+)
+
+[2025-05-30 10:01:43] Archivo temporal eliminado
+[2025-05-30 10:01:43] Restauración completada con éxito
+[2025-05-30 10:02:07] Inicio de restauración
+[2025-05-30 10:02:07] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-05-30 10:02:07] Procesando archivo: D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+[2025-05-30 10:02:07] Tamaño del archivo: 659488 bytes
+[2025-05-30 10:02:07] Procesando backup ENCRIPTADO
+[2025-05-30 10:02:07] Longitud datos encriptados: 659488 bytes
+[2025-05-30 10:02:07] IV extraído: 933014be0615d5462fef39afb14f4ccb
+[2025-05-30 10:02:07] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-30 10:02:07] Datos desencriptados: 659456 bytes
+[2025-05-30 10:02:07] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\dec5324.tmp.bak
+[2025-05-30 10:02:07] Escritos 659456 bytes en archivo temporal
+[2025-05-30 10:02:07] Tamaño archivo temporal: 659456 bytes
+[2025-05-30 10:02:07] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-30 10:02:07] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\dec5324.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-05-30 10:02:07] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.031 seconds (121.014 MB/sec).
+)
+
+[2025-05-30 10:02:07] Archivo temporal eliminado
+[2025-05-30 10:02:07] Restauración completada con éxito
+[2025-05-30 10:55:35] Inicio de restauración
+[2025-05-30 10:55:35] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+    [encrypted] => 1
+    [restore_type] => partial
+    [password] => clave
+)
+
+[2025-05-30 10:55:35] Procesando archivo: D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+[2025-05-30 10:55:35] Tamaño del archivo: 659488 bytes
+[2025-05-30 10:55:35] Procesando backup ENCRIPTADO
+[2025-05-30 10:55:35] Longitud datos encriptados: 659488 bytes
+[2025-05-30 10:55:35] IV extraído: 933014be0615d5462fef39afb14f4ccb
+[2025-05-30 10:55:35] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-30 10:55:35] Datos desencriptados: 659456 bytes
+[2025-05-30 10:55:35] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\dec4486.tmp.bak
+[2025-05-30 10:55:35] Escritos 659456 bytes en archivo temporal
+[2025-05-30 10:55:35] Tamaño archivo temporal: 659456 bytes
+[2025-05-30 10:55:35] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-30 10:55:35] ERROR: No se seleccionaron tablas para restaurar
+[2025-05-30 10:55:35] Archivo temporal eliminado por error
+[2025-05-30 10:55:44] Inicio de restauración
+[2025-05-30 10:55:44] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+    [encrypted] => 1
+    [restore_type] => partial
+    [password] => clave
+)
+
+[2025-05-30 10:55:44] Procesando archivo: D:\laragon\backup_logs\backup_20250530_031513.bak.enc
+[2025-05-30 10:55:44] Tamaño del archivo: 659488 bytes
+[2025-05-30 10:55:44] Procesando backup ENCRIPTADO
+[2025-05-30 10:55:44] Longitud datos encriptados: 659488 bytes
+[2025-05-30 10:55:44] IV extraído: 933014be0615d5462fef39afb14f4ccb
+[2025-05-30 10:55:44] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-30 10:55:44] Datos desencriptados: 659456 bytes
+[2025-05-30 10:55:44] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\dec69C2.tmp.bak
+[2025-05-30 10:55:44] Escritos 659456 bytes en archivo temporal
+[2025-05-30 10:55:44] Tamaño archivo temporal: 659456 bytes
+[2025-05-30 10:55:44] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-30 10:55:44] ERROR: No se seleccionaron tablas para restaurar
+[2025-05-30 10:55:44] Archivo temporal eliminado por error
+[2025-05-30 10:56:20] Inicio de restauración
+[2025-05-30 10:56:20] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\ecommerce_backup_20250528_123031.bak
+    [encrypted] => 0
+    [restore_type] => partial
+    [password] => clave
+)
+
+[2025-05-30 10:56:20] Procesando archivo: D:\laragon\backup_logs\ecommerce_backup_20250528_123031.bak
+[2025-05-30 10:56:20] Tamaño del archivo: 4050944 bytes
+[2025-05-30 10:56:20] Procesando backup NORMAL
+[2025-05-30 10:56:20] Tamaño archivo a restaurar: 4050944 bytes
+[2025-05-30 10:56:20] ERROR: No se seleccionaron tablas para restaurar
+[2025-05-30 10:56:30] Inicio de restauración
+[2025-05-30 10:56:30] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\ecommerce_backup_20250528_122204.bak
+    [encrypted] => 0
+    [restore_type] => partial
+    [password] => 
+)
+
+[2025-05-30 10:56:30] Procesando archivo: D:\laragon\backup_logs\ecommerce_backup_20250528_122204.bak
+[2025-05-30 10:56:30] Tamaño del archivo: 3919872 bytes
+[2025-05-30 10:56:30] Procesando backup NORMAL
+[2025-05-30 10:56:30] Tamaño archivo a restaurar: 3919872 bytes
+[2025-05-30 10:56:30] ERROR: No se seleccionaron tablas para restaurar
+[2025-05-31 11:20:09] Inicio de restauración
+[2025-05-31 11:20:09] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_060132.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-05-31 11:20:09] Procesando archivo: D:\laragon\backup_logs\backup_20250530_060132.bak.enc
+[2025-05-31 11:20:09] Tamaño del archivo: 659488 bytes
+[2025-05-31 11:20:09] Procesando backup ENCRIPTADO
+[2025-05-31 11:20:09] Longitud datos encriptados: 659488 bytes
+[2025-05-31 11:20:09] IV extraído: f72a2b4be8a21fb35fcc1e8f1ccd56fe
+[2025-05-31 11:20:09] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-31 11:20:09] Datos desencriptados: 659456 bytes
+[2025-05-31 11:20:09] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\dec63D1.tmp.bak
+[2025-05-31 11:20:09] Escritos 659456 bytes en archivo temporal
+[2025-05-31 11:20:09] Tamaño archivo temporal: 659456 bytes
+[2025-05-31 11:20:09] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-31 11:20:09] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\dec63D1.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-05-31 11:20:29] Resultado del comando (Código 0): Array
+(
+    [0] => Msg 3101, Level 16, State 1, Server KernelOS-PC, Line 1
+    [1] => Exclusive access could not be obtained because the database is in use.
+    [2] => Msg 3013, Level 16, State 1, Server KernelOS-PC, Line 1
+    [3] => RESTORE DATABASE is terminating abnormally.
+)
+
+[2025-05-31 11:20:29] Archivo temporal eliminado
+[2025-05-31 11:20:29] Restauración completada con éxito
+[2025-05-31 11:20:31] Inicio de restauración
+[2025-05-31 11:20:31] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_060132.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-05-31 11:20:31] Procesando archivo: D:\laragon\backup_logs\backup_20250530_060132.bak.enc
+[2025-05-31 11:20:31] Tamaño del archivo: 659488 bytes
+[2025-05-31 11:20:31] Procesando backup ENCRIPTADO
+[2025-05-31 11:20:31] Longitud datos encriptados: 659488 bytes
+[2025-05-31 11:20:31] IV extraído: f72a2b4be8a21fb35fcc1e8f1ccd56fe
+[2025-05-31 11:20:31] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-31 11:20:31] Datos desencriptados: 659456 bytes
+[2025-05-31 11:20:31] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\decBA1F.tmp.bak
+[2025-05-31 11:20:31] Escritos 659456 bytes en archivo temporal
+[2025-05-31 11:20:31] Tamaño archivo temporal: 659456 bytes
+[2025-05-31 11:20:31] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-31 11:20:31] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\decBA1F.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-05-31 11:20:52] Resultado del comando (Código 0): Array
+(
+    [0] => Msg 3101, Level 16, State 1, Server KernelOS-PC, Line 1
+    [1] => Exclusive access could not be obtained because the database is in use.
+    [2] => Msg 3013, Level 16, State 1, Server KernelOS-PC, Line 1
+    [3] => RESTORE DATABASE is terminating abnormally.
+)
+
+[2025-05-31 11:20:52] Archivo temporal eliminado
+[2025-05-31 11:20:52] Restauración completada con éxito
+[2025-05-31 11:21:45] Inicio de restauración
+[2025-05-31 11:21:45] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250530_060132.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-05-31 11:21:45] Procesando archivo: D:\laragon\backup_logs\backup_20250530_060132.bak.enc
+[2025-05-31 11:21:45] Tamaño del archivo: 659488 bytes
+[2025-05-31 11:21:45] Procesando backup ENCRIPTADO
+[2025-05-31 11:21:45] Longitud datos encriptados: 659488 bytes
+[2025-05-31 11:21:45] IV extraído: f72a2b4be8a21fb35fcc1e8f1ccd56fe
+[2025-05-31 11:21:45] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-05-31 11:21:45] Datos desencriptados: 659456 bytes
+[2025-05-31 11:21:45] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\decDAE2.tmp.bak
+[2025-05-31 11:21:45] Escritos 659456 bytes en archivo temporal
+[2025-05-31 11:21:45] Tamaño archivo temporal: 659456 bytes
+[2025-05-31 11:21:45] Tamaño archivo a restaurar: 659456 bytes
+[2025-05-31 11:21:45] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\decDAE2.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-05-31 11:21:46] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.023 seconds (163.107 MB/sec).
+)
+
+[2025-05-31 11:21:46] Archivo temporal eliminado
+[2025-05-31 11:21:46] Restauración completada con éxito
+[2025-06-01 00:52:53] Inicio de restauración
+[2025-06-01 00:52:53] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250531_185152.bak.enc
+    [encrypted] => 1
+    [password] => clasdasd
+)
+
+[2025-06-01 00:52:53] Procesando archivo: D:\laragon\backup_logs\backup_20250531_185152.bak.enc
+[2025-06-01 00:52:53] Tamaño del archivo: 659488 bytes
+[2025-06-01 00:52:53] Procesando backup ENCRIPTADO
+[2025-06-01 00:52:53] Longitud datos encriptados: 659488 bytes
+[2025-06-01 00:52:53] IV extraído: f1be448d51583ccfc19236c1c24f3294
+[2025-06-01 00:52:53] Clave derivada: 186f7f208681d1bf1bbf52c7801de5b8e53408b899d0f3ecfc983f62ac50dfe7
+[2025-06-01 00:52:53] ERROR: Error al desencriptar: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt
+[2025-06-01 00:53:05] Inicio de restauración
+[2025-06-01 00:53:05] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250531_185152.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-06-01 00:53:05] Procesando archivo: D:\laragon\backup_logs\backup_20250531_185152.bak.enc
+[2025-06-01 00:53:05] Tamaño del archivo: 659488 bytes
+[2025-06-01 00:53:05] Procesando backup ENCRIPTADO
+[2025-06-01 00:53:05] Longitud datos encriptados: 659488 bytes
+[2025-06-01 00:53:05] IV extraído: f1be448d51583ccfc19236c1c24f3294
+[2025-06-01 00:53:05] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-06-01 00:53:05] Datos desencriptados: 659456 bytes
+[2025-06-01 00:53:05] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\decA5E5.tmp.bak
+[2025-06-01 00:53:05] Escritos 659456 bytes en archivo temporal
+[2025-06-01 00:53:05] Tamaño archivo temporal: 659456 bytes
+[2025-06-01 00:53:05] Tamaño archivo a restaurar: 659456 bytes
+[2025-06-01 00:53:05] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\decA5E5.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-06-01 00:53:06] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.186 seconds (20.169 MB/sec).
+)
+
+[2025-06-01 00:53:06] Archivo temporal eliminado
+[2025-06-01 00:53:06] Restauración completada con éxito
+[2025-06-01 02:32:52] Inicio de restauración
+[2025-06-01 02:32:52] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250531_203204.bak
+    [encrypted] => 0
+)
+
+[2025-06-01 02:32:52] Procesando archivo: D:\laragon\backup_logs\backup_20250531_203204.bak
+[2025-06-01 02:32:52] Tamaño del archivo: 659456 bytes
+[2025-06-01 02:32:52] Procesando backup NORMAL
+[2025-06-01 02:32:52] Tamaño archivo a restaurar: 659456 bytes
+[2025-06-01 02:32:52] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'D:\laragon\backup_logs\backup_20250531_203204.bak' WITH REPLACE, RECOVERY"
+[2025-06-01 02:32:53] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.130 seconds (28.857 MB/sec).
+)
+
+[2025-06-01 02:32:53] Restauración completada con éxito
+[2025-06-01 02:34:17] Inicio de restauración
+[2025-06-01 02:34:17] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250531_203326.bak.enc
+    [encrypted] => 1
+    [password] => sdaksljdlaksjd
+)
+
+[2025-06-01 02:34:17] Procesando archivo: D:\laragon\backup_logs\backup_20250531_203326.bak.enc
+[2025-06-01 02:34:17] Tamaño del archivo: 659488 bytes
+[2025-06-01 02:34:17] Procesando backup ENCRIPTADO
+[2025-06-01 02:34:17] Longitud datos encriptados: 659488 bytes
+[2025-06-01 02:34:17] IV extraído: 60a837fa8fcb79a3ef25816bd10b5b65
+[2025-06-01 02:34:17] Clave derivada: bd89d2ec4405ad4d2ff8219c7cd68a45abc897d836a5644024c47e72faad6099
+[2025-06-01 02:34:17] ERROR: Error al desencriptar: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt
+[2025-06-01 02:34:31] Inicio de restauración
+[2025-06-01 02:34:31] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250531_203326.bak.enc
+    [encrypted] => 1
+    [password] => clave
+)
+
+[2025-06-01 02:34:31] Procesando archivo: D:\laragon\backup_logs\backup_20250531_203326.bak.enc
+[2025-06-01 02:34:31] Tamaño del archivo: 659488 bytes
+[2025-06-01 02:34:31] Procesando backup ENCRIPTADO
+[2025-06-01 02:34:31] Longitud datos encriptados: 659488 bytes
+[2025-06-01 02:34:31] IV extraído: 60a837fa8fcb79a3ef25816bd10b5b65
+[2025-06-01 02:34:31] Clave derivada: 6d5074b4bf2b913866157d7674f1eda042c5c614876de876f7512702d2572a06
+[2025-06-01 02:34:31] Datos desencriptados: 659456 bytes
+[2025-06-01 02:34:31] Creando archivo temporal en: C:\Users\Administrator\AppData\Local\Temp\dec8191.tmp.bak
+[2025-06-01 02:34:31] Escritos 659456 bytes en archivo temporal
+[2025-06-01 02:34:31] Tamaño archivo temporal: 659456 bytes
+[2025-06-01 02:34:31] Tamaño archivo a restaurar: 659456 bytes
+[2025-06-01 02:34:31] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'C:\Users\Administrator\AppData\Local\Temp\dec8191.tmp.bak' WITH REPLACE, RECOVERY"
+[2025-06-01 02:34:31] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.019 seconds (197.445 MB/sec).
+)
+
+[2025-06-01 02:34:31] Archivo temporal eliminado
+[2025-06-01 02:34:31] Restauración completada con éxito
+[2025-06-02 13:37:11] Inicio de restauración
+[2025-06-02 13:37:11] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250531_203204.bak
+    [encrypted] => 0
+)
+
+[2025-06-02 13:37:11] Procesando archivo: D:\laragon\backup_logs\backup_20250531_203204.bak
+[2025-06-02 13:37:11] Tamaño del archivo: 659456 bytes
+[2025-06-02 13:37:11] Procesando backup NORMAL
+[2025-06-02 13:37:11] Tamaño archivo a restaurar: 659456 bytes
+[2025-06-02 13:37:11] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'D:\laragon\backup_logs\backup_20250531_203204.bak' WITH REPLACE, RECOVERY"
+[2025-06-02 13:37:12] Inicio de restauración
+[2025-06-02 13:37:12] Recibida solicitud: Array
+(
+    [backupFile] => D:\laragon\backup_logs\backup_20250531_203204.bak
+    [encrypted] => 0
+)
+
+[2025-06-02 13:37:12] Procesando archivo: D:\laragon\backup_logs\backup_20250531_203204.bak
+[2025-06-02 13:37:12] Tamaño del archivo: 659456 bytes
+[2025-06-02 13:37:12] Procesando backup NORMAL
+[2025-06-02 13:37:12] Tamaño archivo a restaurar: 659456 bytes
+[2025-06-02 13:37:12] Ejecutando comando: sqlcmd -S localhost -E -Q "RESTORE DATABASE [ecommerce] FROM DISK = N'D:\laragon\backup_logs\backup_20250531_203204.bak' WITH REPLACE, RECOVERY"
+[2025-06-02 13:37:12] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.038 seconds (98.722 MB/sec).
+)
+
+[2025-06-02 13:37:12] Restauración completada con éxito
+[2025-06-02 13:37:12] Resultado del comando (Código 0): Array
+(
+    [0] => Processed 480 pages for database 'ecommerce', file 'ecommerce' on file 1.
+    [1] => Processed 1 pages for database 'ecommerce', file 'ecommerce_log' on file 1.
+    [2] => RESTORE DATABASE successfully processed 481 pages in 0.044 seconds (85.260 MB/sec).
+)
+
+[2025-06-02 13:37:12] Restauración completada con éxito
